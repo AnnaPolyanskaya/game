@@ -1,0 +1,26 @@
+.top-bar__container{
+    display: flex;
+    flex-direction: row;
+    max-width: 60%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar__menu-btn,
+.play-btn{
+    margin: 16px !important;
+}
+
+.winner__container{
+    max-width: 500px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.winner__item{
+    background: rgba(245,0,87, 0.8);
+    color: #fff;
+    margin-bottom: 5px;
+}
